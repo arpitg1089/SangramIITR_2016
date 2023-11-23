@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	
+	<title>More Info</title>
+	
+	<link rel="stylesheet" href="./style.css">
+	<link rel="icon" type="image/png" href="./title_icon.png">
+    <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js'></script>
+    <script src="./organictabs.jquery.js"></script>
+    <script>
+        $(function() {
+    
+            $("#example-one").organicTabs();
+            
+            $("#example-two").organicTabs({
+                "speed": 200
+            });
+    
+        });
+    </script>
+</head>
+
+    
+    <style>
+     a:link {
+    text-decoration:none;
+        }
+    
+
+a:visited {
+    text-decoration:none;
+        }
+
+
+a:hover {
+    text-decoration:none;
+        
+}
+
+a:active {
+     text-decoration:none;
+        }
+        
+        body {
+            
+            font-family: 'Roboto', sans-serif;!important;
+            background-color:#232323;
+            
+        }
+        
+        
+        #headd
+        {
+            
+            position: fixed;
+            top: 0px;
+            width: 100%;
+            height: 68px;
+            
+            background-color:#72A603;   
+        }
+        
+        #logoo
+        {
+             position: fixed;
+            top: -6px;
+            left:125px;
+        }
+        
+        #p11 
+        {
+            font-size: 60px;color: white;!important;
+        }
+    </style>
+<body>
+
+    <div id="headd">
+    
+    
+        
+    </div>
+   
+    <a href="http://www.sangramiitr.in/"><img src="./SANGRAM2016.png" id="logoo"></a>
+
+	<div id="page-wrap">
+
+		
+        <div id="example-one">
+        			
+        	<ul class="nav">
+                <li class="nav-one"><a href="#rules" class="current">Guidelines</a></li>
+                <li class="nav-two"><a href="#fixtures">Brochure</a></li>
+            </ul>
+        	
+        	<div class="list-wrap">
+        	
+        		<ul id="rules">
+        		        <embed src="./Guidelines.pdf" width="890px" height="750"> 
+        			
+        		</ul>
+        		<hr /><br />
+        		<ul id="fixtures" class="hide">
+                                <a href="./Brochure.pdf">Brochure-SANGRAM 2016</a>
+                                <div></div>	    
+        	        </ul>
+        		 
+        	 </div> <!-- END List Wrap -->
+         
+         </div> <!-- END  -->
+            </div>
+	
+</body>
+
+</html>
